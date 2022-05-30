@@ -53,7 +53,7 @@
         $(window).ready(() => {
             window.onresize = swim;
             for (i = 0; i < setRandom(5, 10); i++) {
-                $("body").append(`<li id='fish${i}'><img src='Image/fish.png'></li`);
+                $("body").append(`<li id='fish${i}'><img src='fish.png'></li`);
                 swim(`fish${i}`);
                 $(window).click((ev) => {
                     $("li").each(function() {
